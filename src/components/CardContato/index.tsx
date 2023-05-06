@@ -51,9 +51,9 @@ export const Card = ({ nome, telefone, email, id }: Props) => {
   }
 
   const cancelarEdicao = () => {
-    setEditaNome(nome)
-    setEditaTel(telefone)
-    setEditaMail(email)
+    setEditaNome(editaNome)
+    setEditaTel(editaTel)
+    setEditaMail(editaMail)
     setEditando(false)
   }
   return (
